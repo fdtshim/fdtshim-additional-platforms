@@ -1,0 +1,5 @@
+mapping.dts
+final-mapping.dts
+generated.dtsi
+result
+*.dtb
