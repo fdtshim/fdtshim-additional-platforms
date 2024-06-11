@@ -8,9 +8,9 @@
         "repo": "fdtshim-mapping-generator"
       },
       "branch": "development",
-      "revision": "0a2f2a42fbee22b86ef8adc13a42af4ce9e15ad8",
-      "url": "https://github.com/fdtshim/fdtshim-mapping-generator/archive/0a2f2a42fbee22b86ef8adc13a42af4ce9e15ad8.tar.gz",
-      "hash": "17d7lbby9py2p0zcd3i1rwg89nvx27vvyscl9fgms0y3199ah3mr"
+      "revision": "b8c329f95563512306b04c0585c040a8903f078d",
+      "url": "https://github.com/fdtshim/fdtshim-mapping-generator/archive/b8c329f95563512306b04c0585c040a8903f078d.tar.gz",
+      "hash": "1mn70h86aavqm6mjzpq6gwc5qwsrgppgvgs2fqq0hf71sa9mgq2v"
     },
     "fenix": {
       "type": "Git",
