@@ -1,0 +1,35 @@
+{
+  "pins": {
+    "fdtshim-mapping-generator": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "fdtshim",
+        "repo": "fdtshim-mapping-generator"
+      },
+      "branch": "development",
+      "revision": "0a2f2a42fbee22b86ef8adc13a42af4ce9e15ad8",
+      "url": "https://github.com/fdtshim/fdtshim-mapping-generator/archive/0a2f2a42fbee22b86ef8adc13a42af4ce9e15ad8.tar.gz",
+      "hash": "17d7lbby9py2p0zcd3i1rwg89nvx27vvyscl9fgms0y3199ah3mr"
+    },
+    "fenix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "fenix"
+      },
+      "branch": "main",
+      "revision": "08ea8011dd25421c104a5f44d16a713a27d93fde",
+      "url": "https://github.com/nix-community/fenix/archive/08ea8011dd25421c104a5f44d16a713a27d93fde.tar.gz",
+      "hash": "08il11h1zh2nmkbbjb6bgcrr8pcqb4v1880d5c35a2k1pb08mq0q"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixos-unstable",
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-24.11pre630835.bfb7a882678e/nixexprs.tar.xz",
+      "hash": "04qn48v4vjpxsk00x407v558p3f1x8blwjppk2sswzbjhyn2vgxw"
+    }
+  },
+  "version": 3
+}
