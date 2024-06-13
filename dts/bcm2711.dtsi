@@ -1,0 +1,16 @@
+/ {
+	mapping {
+		broadcom@bcm2711-rpi-4-b {
+			dmi-match {
+				// Matching against https://github.com/pftf/RPi4
+				// This dmi-match data is intended mainly for testing
+				// against a real-world ACPI-only target.
+				// See also: 
+				//  - https://github.com/pftf/edk2-platforms/blob/c896c358ad59120f6cdb728a38b1d8c21862ea91/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L569-L606
+				sys_vendor = "Raspberry Pi Foundation";
+				board_name = "Raspberry Pi 4 Model B";
+				// TODO: add dump of dmi info
+			};
+		};
+	};
+};
