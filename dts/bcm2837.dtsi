@@ -1,0 +1,17 @@
+/ {
+	mapping {
+		broadcom@bcm2837-rpi-3-b {
+			dmi-match {
+				// Matching against https://github.com/pftf/RPi3
+				// This dmi-match data is intended mainly for testing
+				// against a real-world ACPI-only target.
+				// See also: 
+				//  - https://github.com/pftf/edk2-platforms/blob/c896c358ad59120f6cdb728a38b1d8c21862ea91/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L569-L606
+				sys_vendor = "Raspberry Pi Foundation";
+				board_name = "Raspberry Pi 3 Model B";
+				//bios_vendor = "https://github.com/pftf/RPi3";
+				// TODO: add dump of dmi info
+			};
+		};
+	};
+};
